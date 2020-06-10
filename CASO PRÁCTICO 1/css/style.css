@@ -1,0 +1,80 @@
+body { font-family: 'Roboto', sans-serif; }
+.wrapper {
+margin: 0 auto;
+max-width: 768px;
+padding-left: 15px;
+padding-right: 15px;
+}
+header {
+padding: 15px 15px;
+background: none;
+}
+header h1 {
+margin: 10px 0;
+color: #9595b7;
+}
+nav { background: #9595b7; }
+nav a,
+nav a:visited,
+nav a:active {
+text-decoration: none;
+color: #ffffff;
+}
+article { padding: 15px; }
+article h1 {
+font-family: inherit, bold;
+margin: 10px 0;
+font-size: 25px;
+}
+
+li { list-style: none; }
+li ul {
+display: inline-block;
+padding: 20px 15px;
+font-family: inherit;
+font-weight: bold;
+margin: auto;
+cursor: pointer;
+}
+li ul:hover {
+background: #d1d1e0;
+}
+li ul:hover a {
+color: white;
+}
+section > h1 {
+margin-top: 60px;
+color: #DC4C46;
+}
+.firstParagraph { margin-top: 40px; }
+p {
+margin-bottom: 30px;
+color: #2a2a2a;
+font-family: inherit;
+font-weight: bold;
+}
+
+.container {
+    margin:0 auto;
+    width: 100%;
+    max-width: 748px;
+}
+.container li {
+    list-style: none;
+}
+.container a {
+text-decoration: none;
+color:#9595b7;
+font-family: inherit;
+font-weight: bold;
+}
+
+
+/* Continuación del archivo css */
+footer {
+margin: 20px 0;
+padding: 20px;
+text-align: center;
+background: #f0f0f0;
+color: #656565;
+}
